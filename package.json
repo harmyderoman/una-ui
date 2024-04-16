@@ -52,6 +52,7 @@
     "prepare": "ignore-dependency-scripts \"esno scripts/prepare.ts\" && pnpm -r --filter=./packages/* run stub"
   },
   "dependencies": {
+    "@tanstack/vue-table": "^8.15.3",
     "@una-ui/extractor-vue-script": "workspace:^",
     "@una-ui/nuxt": "workspace:^",
     "@una-ui/preset": "workspace:^",
